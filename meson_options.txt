@@ -1,0 +1,13 @@
+option('with-aspell', type: 'boolean', value: false)
+option('with-ispell', type: 'boolean', value: false)
+option('with-hspell', type: 'boolean', value: false)
+option('with-myspell', type: 'boolean', value: true,
+  description: 'Myspell/Hunspell backend'
+)
+option('with-uspell', type: 'boolean', value: false)
+option('with-voikko', type: 'boolean', value: true)
+option('with-zemberek', type: 'boolean', value: false,
+  description: 'Experimental zemberek (turkish) backend'
+)
+
+# TODO: More config options like myspell dir
